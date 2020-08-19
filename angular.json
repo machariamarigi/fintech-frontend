@@ -72,7 +72,8 @@
             "browserTarget": "fintech-frontend:build",
             "customWebpackConfig": {
               "path": "./webpack.config.js"
-            }
+            },
+            "poxyConfig": "src/proxy.cong.json"
           },
           "configurations": {
             "production": {
